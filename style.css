@@ -1,0 +1,586 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-danger: #b00000;
+}
+
+/* navbar-section */
+.l1ogo {
+  width: 50px;
+  height: 33px;
+  object-fit: cover;
+}
+
+.ourser {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: left;
+  color: #000000;
+  border-bottom: 1px solid #b00000;
+}
+
+.About {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: left;
+  color: #000000;
+}
+
+.account-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.acc p {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-right: 10px;
+  text-align: left;
+  color: #000000;
+}
+
+.iconp-nom {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-right: 5px;
+  color: var(--color-danger);
+}
+
+.main-ic-num {
+  display: flex;
+  justify-content: center;
+}
+
+.cont p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #000000;
+}
+
+/* hero-section */
+.list-host {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.host {
+  border-bottom: 1px solid var(--color-danger);
+}
+
+.host h6 {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--color-danger);
+}
+
+.host2 {
+  display: flex;
+  align-items: center;
+  margin-right: 20%;
+  border-bottom: 1px solid #d6d4d4;
+}
+
+.host1 h6 {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin-left: 10px;
+  text-align: left;
+  color: #d6d4d4;
+}
+
+.premium h5 {
+  font-family: "Poppins";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  margin-top: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Blazing p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 10px;
+  text-align: left;
+  color: #808080;
+}
+
+.btn-red-white {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.Create {
+  height: 50px;
+  padding: 13px;
+  background-color: #b00000;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px #f79b9b;
+}
+
+.Create1 {
+  height: 50px;
+  padding: 13px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-left: 25px;
+}
+
+.Create1 p {
+  font-family: " Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: black;
+}
+
+.Create p {
+  font-family: " Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+}
+
+.img2 {
+  object-fit: cover;
+}
+
+/* section-3 */
+.true {
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 800;
+  color: #000000;
+  text-align: left;
+}
+
+.Cloud {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 20px;
+  text-align: left;
+  color: #18191f;
+}
+
+.imageg1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.i1mg {
+  width: 80px;
+  object-fit: cover;
+}
+
+/* section-4 */
+.maincards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconwach {
+  align-self: center;
+  font-size: 38px;
+  background: hwb(0 64% 3%);
+  width: 60px;
+  text-align: center;
+  padding: 1px;
+  height: 60px;
+  border-radius: 50px;
+  color: var(--color-danger);
+}
+
+.heading h5 {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: left;
+}
+
+.parap p {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* section-5 */
+.ready {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+}
+
+.Choose {
+  font-family: "Poppins";
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+
+.mothbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.month h5 {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-right: 10px;
+}
+
+.yellow p {
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 25px;
+  background-color: #ffe87a;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.radius {
+  background-color: #b00000;
+  width: 60px;
+  height: 30px;
+  border-radius: 75px;
+}
+
+.radus1 {
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  margin-left: 3px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.month1 h5 {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-left: 6px;
+}
+
+.baseline {
+  display: flex;
+  justify-content: center;
+}
+
+.basic h5 {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.baseline {
+  border-bottom: 2px solid #b00000;
+}
+
+.baseline1 {
+  border-bottom: 2px solid #c4c4c4;
+}
+
+.pree h5 {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* section-6 */
+.statar {
+  width: 280px;
+  height: 640px;
+  border: 2px solid #c4c4c4;
+}
+
+.star {
+  font-family: "Poppins";
+  font-size: 28px;
+  margin-top: 10px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.with {
+  font-family: " Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+
+.dollar {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.path {
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.choose {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.choose p {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.gb p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-left: 5px;
+  text-align: left;
+  color: #808080;
+}
+
+.icong {
+  display: flex;
+  justify-content: left;
+}
+
+.icon3 {
+  font-size: 21px;
+}
+
+/* section-7 */
+
+.real {
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.get {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+
+.cli img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.clicards {
+  width: 300px;
+  height: 350px;
+  padding-left: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.floy {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+
+.vice {
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 0px;
+  text-align: left;
+  color: #969bab;
+}
+
+.clicards1 {
+  width: 300px;
+  height: 260px;
+  padding-left: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clicards2 {
+  width: 270px;
+  height: 240px;
+  padding-left: 7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lorem {
+  font-family: " Inter";
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* section-8 */
+
+.textnever h5 {
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: left;
+}
+
+.textnever p {
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.imgbrand {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgb {
+  width: 90px;
+  height: 80px;
+  object-fit: cover;
+}
+
+/* section-9 */
+.were {
+  font-family: "Poppins";
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: center;
+}
+
+.whatsmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  background: #b00000;
+}
+
+.iconwhat {
+  font-size: 22px;
+  color: white;
+}
+
+.out p {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0px;
+  margin-top: 15px;
+  margin-left: 5px;
+  text-align: left;
+  color: white;
+}
+
+.mainsky {
+  background-color: #e8f0fc;
+}
+
+/* section-9 */
+.lastlogo {
+  height: 40px;
+  width: 60px;
+}
+
+.last {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 4%;
+  text-align: left;
+  color: white;
+}
+
+.serv {
+  font-family: " Inter";
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+}
+
+.listedon li {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+}
+
+.build {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  text-align: left;
+  color: white;
+}
+.footcoontainer {
+  background-color: var(--color-danger);
+}
